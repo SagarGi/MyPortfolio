@@ -19,15 +19,15 @@ export default function OutlinedButtons() {
   return (
     <div className={classes.root}>
         <div className = "container-fluid row mt-4">
-            <div className = "col-sm text-center">
+            <div className = "col-sm text-center mt-3">
             {/* <Button className = "textbutton"  variant="outlined" color="primary">About me</Button> */}
             <AboutMe />
             </div>
-            <div className = "col-sm text-center">
+            <div className = "col-sm text-center mt-3">
             {/* <Button className = "textbutton"  variant="outlined"  color="primary">My Projects</Button> */}
             <MyProject />
             </div>
-            <div class = "col-sm text-center">
+            <div class = "col-sm text-center mt-3">
             {/* <Button className = "textbutton"  variant="outlined"  color="primary">Contacts</Button> */}
             <Contact />
             </div>

@@ -80,18 +80,18 @@ export default function CustomizedDialogs() {
         <DialogContent>
             <div className = "container-fluid">
             <div className = "row">
-              <div className = "col-sm ml-5">
+              <div className = "col-sm ml-5 mt-4">
                     <Card name = "BMI Mobile App" href = "https://github.com/SagarGi/BMI" target="_blank" image = {require("./images/java.png")} />
               </div>
-              <div className = "col-sm">
+              <div className = "col-sm ml-5 mt-4">
                     <Card name = "FOODHut"  href = "https://github.com/SagarGi/FOODHut" target="_blank" image = {require("./images/java.png")} />
               </div>
           </div>
-          <div className = "row mt-5">
-              <div className = "col-sm ml-5">
+          <div className = "row mt-4">
+              <div className = "col-sm ml-5 mt-4">
                     <Card name = "DES Implemen.." href = "https://github.com/SagarGi/DESImplementation" target="_blank" image = {require("./images/java.png")}/>
               </div>
-              <div className = "col-sm">
+              <div className = "col-sm ml-5 mt-4">
                     <Card name = "AR System" href = "https://github.com/SagarGi/AR-System" target="_blank"  image = {require("./images/java.png")}/>
               </div>
           </div>

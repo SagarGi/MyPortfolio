@@ -73,7 +73,7 @@ export default function CustomizedDialogs() {
       </Button>
       <Dialog onClose={handleClose} aria-labelledby="customized-dialog-title" open={open}>
         <DialogTitle style = {{background: '#232a31'}}id="customized-dialog-title" onClose={handleClose}>
-          <h2 className = "text font-weight-blod text-center display-4">INTRODUCTION</h2>
+          <h2 className = "text font-weight-blod text-center display-4">ABOUT ME</h2>
           <hr className = "hrline1"></hr>
         </DialogTitle>
         <DialogContent>
