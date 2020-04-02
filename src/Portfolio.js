@@ -46,7 +46,7 @@ class Portfolio extends Component
                     <div className = "myprojects">
                     <div className = "row text-center">
 
-                        <div class="col-xs-4 col-sm-4 col-md-6">
+                        <div class="col-xs-4 col-sm-4 col-md-6 col-lg-4">
                             <div className = "container">                         
                                 <div className = " card-hi card" style = {{width: "100%"}}>
                                 <h4>AR System</h4>
@@ -56,7 +56,7 @@ class Portfolio extends Component
                                 </div>
                             </div>
                        </div>
-                        <div class="col-xs-4 col-sm-4 col-md-6">
+                        <div class="col-xs-4 col-sm-4 col-md-6 col-lg-4">
                         <div className = "container">                         
                                 <div className = " card-hi card" style = {{width: "100%"}}>
                                 <h4>Chit-Chat App</h4>
@@ -67,7 +67,7 @@ class Portfolio extends Component
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xs-4 col-sm-4 col-md-6">
+                        <div class="col-xs-4 col-sm-4 col-md-6 col-lg-4">
                         <div className = "container">                         
                                 <div className = " card-hi card" style = {{width: "100%"}}>
                                 <h4>DES Implementation</h4>
@@ -83,7 +83,7 @@ class Portfolio extends Component
 
                         <div className = "row text-center mt-5">
 
-                        <div class="col-xs-4 col-sm-4 col-md-6">
+                        <div class="col-xs-4 col-sm-4 col-md-6 col-lg-4">
                         <div className = "container">                         
                                 <div className = " card-hi card" style = {{width: "100%"}}>
                                 <h4>FOODHut</h4>
@@ -94,7 +94,7 @@ class Portfolio extends Component
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xs-4 col-sm-4 col-md-6">
+                        <div class="col-xs-4 col-sm-4 col-md-6 col-lg-4">
                         <div className = "container">                         
                                 <div className = " card-hi card" style = {{width: "100%"}}>
                                 <h4>BMI</h4>
@@ -105,7 +105,7 @@ class Portfolio extends Component
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xs-4 col-sm-4 col-md-6">
+                        <div class="col-xs-4 col-sm-4 col-md-6 col-lg-4">
                         <div className = "container">                         
                                 <div className = " card-hi card" style = {{width: "100%"}}>
                                 <h4>SimpleDice Game</h4>
