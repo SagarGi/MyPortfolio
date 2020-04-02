@@ -19,6 +19,7 @@ class Portfolio extends Component
     {
         return(
             <div className = "main">
+                <div className = "my-content">
                 <div className = "about-me container text-center">
                         <div className = "profile-image text-center">
                             <img src = {require('./images/sagar.jpg')} alt = "SagarGi" class = "avatar"></img>
@@ -130,7 +131,8 @@ class Portfolio extends Component
                      </div>
                  </div>
 
-                 <Footer />
+                </div>
+                <Footer />
             </div>
 
             
