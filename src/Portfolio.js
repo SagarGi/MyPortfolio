@@ -51,8 +51,9 @@ class Portfolio extends Component
                             <div className = "container">                         
                                 <div className = " card-hi card" style = {{width: "100%"}}>
                                 <h4>AR System</h4>
-                                <img src = {require('./images/java.png')} alt = "SagarGi" class = "display-pic"></img>                             
-                                <button>View Project</button>
+                                <img src = {require('./images/java.png')} alt = "SagarGi" class = "display-pic" ></img>  
+                                <button className = "button" onClick={(e) => {e.preventDefault(); window.open('http://google.com', "_blank")}}>View Project</button>
+                                
                                 </div>
                             </div>
                        </div>
@@ -61,7 +62,9 @@ class Portfolio extends Component
                                 <div className = " card-hi card" style = {{width: "100%"}}>
                                 <h4>AR System</h4>
                                 <img src = {require('./images/java.png')} alt = "SagarGi" class = "display-pic"></img>                             
-                                <button>View Project</button>
+                                <button className = "button" onClick={(e) => {e.preventDefault(); window.open('http://google.com', "_blank")}}>View Project</button>
+                               
+                                
                                 </div>
                             </div>
                         </div>
@@ -70,7 +73,9 @@ class Portfolio extends Component
                                 <div className = " card-hi card" style = {{width: "100%"}}>
                                 <h4>AR System</h4>
                                 <img src = {require('./images/java.png')} alt = "SagarGi" class = "display-pic"></img>                             
-                                <button>View Project</button>
+                                <button className = "button" onClick={(e) => {e.preventDefault(); window.open('http://google.com', "_blank")}}>View Project</button>
+                                
+                               
                                 </div>
                             </div>
                         </div>
@@ -84,7 +89,9 @@ class Portfolio extends Component
                                 <div className = " card-hi card" style = {{width: "100%"}}>
                                 <h4>AR System</h4>
                                 <img src = {require('./images/java.png')} alt = "SagarGi" class = "display-pic"></img>                             
-                                <button>View Project</button>
+                                <button className = "button" onClick={(e) => {e.preventDefault(); window.open('http://google.com', "_blank")}}>View Project</button>
+                                
+                                
                                 </div>
                             </div>
                         </div>
@@ -93,7 +100,9 @@ class Portfolio extends Component
                                 <div className = " card-hi card" style = {{width: "100%"}}>
                                 <h4>AR System</h4>
                                 <img src = {require('./images/java.png')} alt = "SagarGi" class = "display-pic"></img>                             
-                                <button>View Project</button>
+                                <button className = "button" onClick={(e) => {e.preventDefault(); window.open('http://google.com', "_blank")}}>View Project</button>
+                                
+                               
                                 </div>
                             </div>
                         </div>
@@ -102,7 +111,9 @@ class Portfolio extends Component
                                 <div className = " card-hi card" style = {{width: "100%"}}>
                                 <h4>AR System</h4>
                                 <img src = {require('./images/java.png')} alt = "SagarGi" class = "display-pic"></img>                             
-                                <button>View Project</button>
+                                <button className = "button" onClick={(e) => {e.preventDefault(); window.open('http://google.com', "_blank")}}>View Project</button>
+                               
+                               
                                 </div>
                             </div>
                         </div>
