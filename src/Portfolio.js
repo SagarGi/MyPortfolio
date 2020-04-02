@@ -43,10 +43,71 @@ class Portfolio extends Component
                 </div>
 
                 {/* projects section  */}
-                <div className = "container">
-
+                <div className = "container mt-4">
                     <div className = "myprojects">
-                        <p>Some projects</p>
+                    <div className = "row text-center">
+
+                        <div class="col-sm">
+                            <div className = "container">                         
+                                <div className = " card-hi card" style = {{width: "100%"}}>
+                                <h4>AR System</h4>
+                                <img src = {require('./images/java.png')} alt = "SagarGi" class = "display-pic"></img>                             
+                                <button>View Project</button>
+                                </div>
+                            </div>
+                       </div>
+                        <div class="col-sm">
+                        <div className = "container">                         
+                                <div className = " card-hi card" style = {{width: "100%"}}>
+                                <h4>AR System</h4>
+                                <img src = {require('./images/java.png')} alt = "SagarGi" class = "display-pic"></img>                             
+                                <button>View Project</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                        <div className = "container">                         
+                                <div className = " card-hi card" style = {{width: "100%"}}>
+                                <h4>AR System</h4>
+                                <img src = {require('./images/java.png')} alt = "SagarGi" class = "display-pic"></img>                             
+                                <button>View Project</button>
+                                </div>
+                            </div>
+                        </div>
+                            
+                        </div>
+
+                        <div className = "row text-center mt-5">
+
+                        <div class="col-sm">
+                        <div className = "container">                         
+                                <div className = " card-hi card" style = {{width: "100%"}}>
+                                <h4>AR System</h4>
+                                <img src = {require('./images/java.png')} alt = "SagarGi" class = "display-pic"></img>                             
+                                <button>View Project</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                        <div className = "container">                         
+                                <div className = " card-hi card" style = {{width: "100%"}}>
+                                <h4>AR System</h4>
+                                <img src = {require('./images/java.png')} alt = "SagarGi" class = "display-pic"></img>                             
+                                <button>View Project</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                        <div className = "container">                         
+                                <div className = " card-hi card" style = {{width: "100%"}}>
+                                <h4>AR System</h4>
+                                <img src = {require('./images/java.png')} alt = "SagarGi" class = "display-pic"></img>                             
+                                <button>View Project</button>
+                                </div>
+                            </div>
+                        </div>
+                            
+                        </div>
                     </div>
 
                 </div>
