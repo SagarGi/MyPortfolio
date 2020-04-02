@@ -62,14 +62,95 @@ p{
 .projects
 {
     width: 100%;
-    height: 500px;
+    margin-top: 40px;
     
 }
-
-@media (max-width: @screen-xs) {
-    body{font-size: 10px;}
+.myprojects
+{
+    width: 100%;
+    height: 800px;
+}
+.icon-down
+{
+    font-size: 30px;
+    color: #8f19cf;
+    display: inline-block;
+    cursor: pointer;
+  position: relative;
+  -moz-animation: bounce 1s infinite linear;
+  -o-animation: bounce 1s infinite linear;
+  -webkit-animation: bounce 1s infinite linear;
+  animation: bounce 1s infinite linear;
+  colr:000;
 }
 
-@media (max-width: @screen-sm) {
-    body{font-size: 14px;}
+@-webkit-keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
 }
+@-moz-keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+@-o-keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+@-ms-keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+@keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+
+@media only screen and (max-width: 800px) {
+    p{
+    font-size: 17px;
+    }
+    
+    h1
+    {
+        font-size: 45px;
+    }
+    .avatar
+    {
+        width: 250px;
+        height: 250px;
+    }
+  }
+
+
+  @media only screen and (max-width: 700px) {
+    p{
+    font-size: 15px;
+    }
+    h1
+    {
+        font-size: 35px;
+    }
+
+    .avatar
+    {
+        width: 220px;
+        height: 220px;
+    }
+
+    .projects
+    {
+    
+    margin-top: 10px;
+    
+    }
+  }
