@@ -32,7 +32,6 @@ h1{
 		background-size: 200% auto;
 		color: #fff;
 		background-clip: text;
-		text-fill-color: transparent;
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 		animation: textclip 1.5s linear infinite;
@@ -71,21 +70,21 @@ p{
 }
 .icon-down
 {
-    font-size: 30px;
+    font-size: 35px;
     color: #8f19cf;
     display: inline-block;
     cursor: pointer;
   position: relative;
-  -moz-animation: bounce 1s infinite linear;
-  -o-animation: bounce 1s infinite linear;
+  -moz-animation: bounce 2s infinite linear;
+  -o-animation: bounce 2s infinite linear;
   -webkit-animation: bounce 1s infinite linear;
-  animation: bounce 1s infinite linear;
+  animation: bounce 2s infinite linear;
   color:000;
 }
 
 .display-pic
 {
-    width: 20%;
+    width: 27%;
     height: 100px;
     margin: 15px auto;
 }
@@ -107,9 +106,9 @@ h4
     width: 250px;
     cursor: pointer;
     font-size: 110%;
-    background: #3366cc;
+    background: #8f19cf;
     color: #fff;
-    border: 1px solid #3366cc;
+    border: 1px solid #8f19cf;
     border-radius: 10px;
     height: 60px;
     font-family: 'Tinos', serif;
@@ -172,13 +171,6 @@ h4
         width: 250px;
         height: 250px;
     }
-  }
-
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 40%;
-    border-radius: 5px;
   }
 
 

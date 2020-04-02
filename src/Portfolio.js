@@ -1,14 +1,12 @@
 import React, {component, Component} from 'react'
 import './portfolio.css'
-import Avatar from 'react-avatar'
-
+import Footer from 'rc-footer'
 class Portfolio extends Component
 {
     constructor()
     {
         super()
     }
-
     goDown = () =>
     {
         // alert("hello i am clicked")
@@ -52,7 +50,7 @@ class Portfolio extends Component
                                 <div className = " card-hi card" style = {{width: "100%"}}>
                                 <h4>AR System</h4>
                                 <img src = {require('./images/java.png')} alt = "SagarGi" class = "display-pic" ></img>  
-                                <button className = "button" onClick={(e) => {e.preventDefault(); window.open('http://google.com', "_blank")}}>View Project</button>
+                                <button className = "button" onClick={(e) => {e.preventDefault(); window.open('https://github.com/SagarGi/AR-System', "_blank")}}>View Project</button>
                                 
                                 </div>
                             </div>
@@ -60,9 +58,9 @@ class Portfolio extends Component
                         <div class="col-sm">
                         <div className = "container">                         
                                 <div className = " card-hi card" style = {{width: "100%"}}>
-                                <h4>AR System</h4>
-                                <img src = {require('./images/java.png')} alt = "SagarGi" class = "display-pic"></img>                             
-                                <button className = "button" onClick={(e) => {e.preventDefault(); window.open('http://google.com', "_blank")}}>View Project</button>
+                                <h4>Chit-Chat App</h4>
+                                <img src = {require('./images/node.png')} alt = "SagarGi" class = "display-pic"></img>                             
+                                <button className = "button" onClick={(e) => {e.preventDefault(); window.open('https://github.com/SagarGi/Chit_Chat', "_blank")}}>View Project</button>
                                
                                 
                                 </div>
@@ -71,9 +69,9 @@ class Portfolio extends Component
                         <div class="col-sm">
                         <div className = "container">                         
                                 <div className = " card-hi card" style = {{width: "100%"}}>
-                                <h4>AR System</h4>
+                                <h4>DES Implementation</h4>
                                 <img src = {require('./images/java.png')} alt = "SagarGi" class = "display-pic"></img>                             
-                                <button className = "button" onClick={(e) => {e.preventDefault(); window.open('http://google.com', "_blank")}}>View Project</button>
+                                <button className = "button" onClick={(e) => {e.preventDefault(); window.open('https://github.com/SagarGi/DESImplementation', "_blank")}}>View Project</button>
                                 
                                
                                 </div>
@@ -87,9 +85,9 @@ class Portfolio extends Component
                         <div class="col-sm">
                         <div className = "container">                         
                                 <div className = " card-hi card" style = {{width: "100%"}}>
-                                <h4>AR System</h4>
-                                <img src = {require('./images/java.png')} alt = "SagarGi" class = "display-pic"></img>                             
-                                <button className = "button" onClick={(e) => {e.preventDefault(); window.open('http://google.com', "_blank")}}>View Project</button>
+                                <h4>FOODHut</h4>
+                                <img src = {require('./images/android.png')} alt = "SagarGi" class = "display-pic"></img>                             
+                                <button className = "button" onClick={(e) => {e.preventDefault(); window.open('https://github.com/SagarGi/FOODHut', "_blank")}}>View Project</button>
                                 
                                 
                                 </div>
@@ -98,9 +96,9 @@ class Portfolio extends Component
                         <div class="col-sm">
                         <div className = "container">                         
                                 <div className = " card-hi card" style = {{width: "100%"}}>
-                                <h4>AR System</h4>
-                                <img src = {require('./images/java.png')} alt = "SagarGi" class = "display-pic"></img>                             
-                                <button className = "button" onClick={(e) => {e.preventDefault(); window.open('http://google.com', "_blank")}}>View Project</button>
+                                <h4>BMI</h4>
+                                <img src = {require('./images/android.png')} alt = "SagarGi" class = "display-pic"></img>                             
+                                <button className = "button" onClick={(e) => {e.preventDefault(); window.open('https://github.com/SagarGi/BMI', "_blank")}}>View Project</button>
                                 
                                
                                 </div>
@@ -109,9 +107,9 @@ class Portfolio extends Component
                         <div class="col-sm">
                         <div className = "container">                         
                                 <div className = " card-hi card" style = {{width: "100%"}}>
-                                <h4>AR System</h4>
+                                <h4>SimpleDice Game</h4>
                                 <img src = {require('./images/java.png')} alt = "SagarGi" class = "display-pic"></img>                             
-                                <button className = "button" onClick={(e) => {e.preventDefault(); window.open('http://google.com', "_blank")}}>View Project</button>
+                                <button className = "button" onClick={(e) => {e.preventDefault(); window.open('https://github.com/SagarGi/SimpleDiceGame', "_blank")}}>View Project</button>
                                
                                
                                 </div>
@@ -122,7 +120,18 @@ class Portfolio extends Component
                     </div>
 
                 </div>
+
+                {/* more section */}
+                 
+                 <div className = "container">
+                     <div className = "more text-center mt-4">
+                            <h4>See More</h4>
+                            <i class="fa fa-angle-double-down icon-down" onClick = {(e) => {e.preventDefault(); window.open('https://github.com/SagarGi/', "_blank")}}></i>
+                     </div>
+                 </div>
             </div>
+
+            
         )
     }
 }
