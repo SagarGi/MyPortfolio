@@ -1,6 +1,6 @@
 import React, {component, Component} from 'react'
 import './portfolio.css'
-import Footer from 'rc-footer'
+import Footer from './footer.js'
 class Portfolio extends Component
 {
     constructor()
@@ -129,6 +129,8 @@ class Portfolio extends Component
                             <i class="fa fa-angle-double-down icon-down" onClick = {(e) => {e.preventDefault(); window.open('https://github.com/SagarGi/', "_blank")}}></i>
                      </div>
                  </div>
+
+                 <Footer />
             </div>
 
             
