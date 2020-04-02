@@ -91,6 +91,7 @@ p{
 .card-hi
 {
     padding: 15px;
+    margin-top: 25px;
 }
 
 h4
@@ -164,7 +165,7 @@ h4
     100% { top: 0; }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
     p{
     font-size: 17px;
     }
@@ -176,18 +177,41 @@ h4
 
     .projects
     {
-        margin-top: 70px;
+        margin-top: 2px;
     }
     .avatar
     {
         width: 250px;
         height: 250px;
     }
+  }
+
+  @media only screen and (max-width: 700px) {
+    p{
+    font-size: 17px;
+    }
+    
+    h1
+    {
+        font-size: 45px;
+    }
+
+    .projects
+    {
+        margin-top: 50px;
+    }
+    .avatar
+    {
+        width: 200px;
+        height: 200px;
+    }
 
     .card-hi
     {
+      
        margin-top: 25px;
     }
+    
   }
 
 
