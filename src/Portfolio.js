@@ -41,9 +41,9 @@ class Portfolio extends Component
 
                 </div>
 
-                {/* projects section  */}
-                <div className = "container mt-4">
-                    <div className = "myprojects">
+                {/* project section */}
+                    <div className = "container mt-4">
+                 
                     <div className = "row text-center">
 
                         <div class="col-xs-4 col-sm-4 col-md-6 col-lg-4">
@@ -78,10 +78,6 @@ class Portfolio extends Component
                                 </div>
                             </div>
                         </div>
-                            
-                        </div>
-
-                        <div className = "row text-center mt-5">
 
                         <div class="col-xs-4 col-sm-4 col-md-6 col-lg-4">
                         <div className = "container">                         
@@ -94,6 +90,7 @@ class Portfolio extends Component
                                 </div>
                             </div>
                         </div>
+
                         <div class="col-xs-4 col-sm-4 col-md-6 col-lg-4">
                         <div className = "container">                         
                                 <div className = " card-hi card" style = {{width: "100%"}}>
@@ -105,6 +102,7 @@ class Portfolio extends Component
                                 </div>
                             </div>
                         </div>
+
                         <div class="col-xs-4 col-sm-4 col-md-6 col-lg-4">
                         <div className = "container">                         
                                 <div className = " card-hi card" style = {{width: "100%"}}>
@@ -118,8 +116,6 @@ class Portfolio extends Component
                         </div>
                             
                         </div>
-                    </div>
-
                 </div>
 
                 {/* more section */}
