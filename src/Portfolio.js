@@ -1,6 +1,8 @@
-import React, {component, Component} from 'react'
+import React, {useState, Component} from 'react'
 import './portfolio.css'
 import Footer from './footer.js'
+import DarkMode from './dark.js'
+
 class Portfolio extends Component
 {
     constructor()
@@ -14,18 +16,24 @@ class Portfolio extends Component
         element_id.scrollIntoView()
     }
 
+    
+
    
     render()
-    {
+    {        
         return(
             <div className = "main">
+                <div className = "darky text-right">
+                    <DarkMode />
+                </div>
+                
                 <div className = "my-content">
                 <div className = "about-me container text-center">
                         <div className = "profile-image text-center">
                             <img src = {require('./images/sagar.jpg')} alt = "SagarGi" class = "avatar"></img>
                         </div>
                         <h1>About Me</h1>
-                        <p>Hello World,<i class="fa fa-hand-paper-o wave" aria-hidden="true"></i> My name is Sagar Gurung.<br></br>I am a software engineering student pursuing BE in software in GCES.
+                        <p className = "intropara">Hello World,<i class="fa fa-hand-paper-o wave" aria-hidden="true"></i> My name is Sagar Gurung.<br></br>I am a software engineering student pursuing BE in software in GCES.
                         <br></br>I like java most than other programing language but i also like c,c++ and javascript.<br></br>
                         I am a learning developer, you can find some of my projects below. Beside that i also write <a href = "https://www.saagargurung.com.np/" target = "_blank">BLOGS</a></p>
                 </div>
@@ -122,7 +130,7 @@ class Portfolio extends Component
                  
                  <div className = "container">
                      <div className = "more text-center mt-4">
-                            <h4>See More</h4>
+                            <h4>See More Projects</h4>
                             <i class="fa fa-angle-double-down icon-down" onClick = {(e) => {e.preventDefault(); window.open('https://github.com/SagarGi/', "_blank")}}></i>
                      </div>
                  </div>

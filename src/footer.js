@@ -14,7 +14,7 @@ const Footer = () =>
                 </div>
 
                 <div className = "bottom text-center">
-                    <p>Made with <i className = "fa fafafa fa-heart"></i> by Sagar Gurung</p>
+                    <p className = "madeby">Made with <i className = "fa fafafa fa-heart"></i> by Sagar Gurung</p>
                 </div>
             </div>             
         </div>
