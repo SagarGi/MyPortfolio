@@ -29,8 +29,7 @@ class DarkMode extends Component
                 light = {lightTheme}
                 dark = {darkTheme}
                 className = "mydark"
-                  >
-
+                >
                 </DarkTheme> 
             </div>
         )
